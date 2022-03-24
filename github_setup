@@ -4,8 +4,9 @@
 !git config --global user.email "cho312391410@gmail.com"
 !git config --global user.name "chosan"
 
-#workspace1に移動する
+#workspace1フォルダを作成する
 !mkdir workspace1
+cd workspace1 #workspace1に移動する(colaboratory上でcdを使う場合はcd自体がサブプロセス?のため!が必要ないらしい)
 #workspace1のフォルダ内で以下を実行
 !git init 
 
