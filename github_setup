@@ -1,15 +1,21 @@
 '''
+#colaboratoryでgithubを利用してみよう
+#gitのユーザー登録を行う
 !git config --global user.email "cho312391410@gmail.com"
 !git config --global user.name "chosan"
-!mkdir workspace1
-workspace1のフォルダ内で以下を実行
-!git init 
-!touch hello.html
-!git status
-!git add hello.html
-!git status
-!git commit -m "add new file"
-!git status
 
-!git clone https://github.com/chosurenderrrr/book-pdf.git
+#workspace1に移動する
+!mkdir workspace1
+#workspace1のフォルダ内で以下を実行
+!git init 
+
+#ファイルを作成する
+!touch hello.html
+!git status #ファイルがまだ登録されていないことを確認する(赤色になる)
+!git add hello.html #hello.htmlをgitに追加する
+!git status #gitにファイルが登録されていることを確認する(緑色になる)
+!git commit -m "add new file" #gitのリモートリポジトリにファイルを登録する
+!git status #gitのリモートリポジトリにファイルがアップされたことを確認する(表示されなくなる)
+
+!git clone https://github.com/chosurenderrrr/hello.html.git #gitのリモートリポジトリを操作する場合はcloneから始める
 '''
