@@ -26,4 +26,13 @@ cd workspace1 #workspace1に移動する(colaboratory上でcdを使う場合はc
 !git remote add origin #originというリモートリポジトリをローカルリポジトリに登録する
 !git pull git origin master #originリポジトリのmasterブランチをリモートリポジトリからローカルリポジトリに反映する
 
+%cd /content/drive/My Drive/Colabdata/
+!git clone https://github.com/reponame.git
+!git config --global user.email "yourmail@gmail.com"
+!git config --global user.name "username"
+!git add file.py
+!git commit -m "Added new file."
+!git remote set-url origin https://username:password@github.com/reponame.git
+!git push origin master
+
 '''
