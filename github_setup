@@ -6,7 +6,7 @@
 
 #workspace1フォルダを作成する
 !mkdir workspace1
-cd workspace1 #workspace1に移動する(colaboratory上でcdを使う場合はcd自体がサブプロセス?のため!が必要ないらしい)
+%cd workspace1 #workspace1に移動する(colaboratory上でcdを使う場合はcd自体がサブプロセス?のため!ではなく%を使うらしい)
 #workspace1のフォルダ内で以下を実行
 !git init 
 
