@@ -15,7 +15,7 @@
 !git status #ファイルがまだ登録されていないことを確認する(赤色になる)
 !git add hello.html #hello.htmlをgitに追加する
 !git status #gitにファイルが登録されていることを確認する(緑色になる)
-!git commit -m "add new file" #gitのリモートリポジトリにファイルを登録する -m でコミットメッセージを追加する
+!git commit -m "add new file" #ローカルリポジトリのファイルをコミットする -m でコミットメッセージを追加する
 !git status #gitのリモートリポジトリにファイルがアップされたことを確認する(表示されなくなる)
 
 !git push origin master #originというリポジトリのmasterというbranchにローカルリポジトリの変更をリモートリポジトリに反映する
