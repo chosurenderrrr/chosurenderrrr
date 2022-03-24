@@ -19,5 +19,8 @@
 
 !git push origin master #originというリポジトリのmasterというbranchにローカルリポジトリの変更をリモートリポジトリに反映する
 !git rm hello.html #hello.htmlを削除する
-!git clone https://github.com/chosurenderrrr/hello.html.git #gitのリモートリポジトリを操作する場合はcloneから始める
+!git clone https://github.com/chosurenderrrr/hello.html.git #gitのリモートリポジトリを合はcloneから始める
+
+!git remote add origin #originというリモートリポジトリをローカルリポジトリに登録する
+!git pull git origin master #originリポジトリのmasterブランチをリモートリポジトリからローカルリポジトリに反映する
 '''
